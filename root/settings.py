@@ -53,7 +53,7 @@ WSGI_APPLICATION = 'root.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bitly_db',
+        'NAME': 'portfolio',
         'USER': 'postgres',
         'PORT': '5432',
         'HOST': 'localhost',
